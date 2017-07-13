@@ -1,0 +1,29 @@
+{
+  "name": "omerucel/form",
+  "type": "library",
+  "homepage": "https://github.com/omerucel/form",
+  "keywords": ["php", "form"],
+  "licence": "MIT",
+  "authors": [
+    {
+      "name": "Ömer ÜCEL",
+      "email": "omerucel@gmail.com"
+    }
+  ],
+  "require": {
+    "respect/validation": "1.1.12"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "OU": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "OU": "tests/src"
+    }
+  }
+}
